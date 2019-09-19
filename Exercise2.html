@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+      <ul id="H-list">
+        <li><a href="#Gemeindes">Gemeindes</a></li>
+        <li><a href="#Educational Institutions">Educational Institutions</a></li>
+        <li><a href="#Historical Sites">Historical Sites</a></li>
+        <li><a href="#Recretional Places">Recretional Places</a></li>
+        <li><a href="#News">News & Events</a></li>
+    </ul>
+   </nav>
+    <h1>Canton Uri</h1>
+    <h2>The beautiful place in Swiss.</h2>
+    <p>Canton Uri located in Central Switzerland. The canton's territory covers 
+        the valley of the <strong> Reuss</strong> between the St. Gotthard Pass and <em> Lake Lucerne.</em> </p>
+    <p>Uri attarcts so many visitors with its <strong>39 cable cars</strong>
+         which provide access to numerous <em>peaks</em>, 
+        <em>hiking</em> and <em>bike</em> trails as well as <em>ski slopes</em> and <em>cross-country tracks.</em></p>
+        <h2 id="Gemeindes">Gemeindes</h2>
+    <h3>List of the municipalities</h3>
+
+    <!--<div id="logos">-->
+    <ul id="M-list"> 
+        <li><img src="logos/altdorf.gif" alt="Altdorf Logo"><a href="#altdorf">Altdorf</a></li>
+        <li><img src="logos/andermatt.gif" alt="Andermatt Logo"><a href="#andermatt">Andermatt</a></li>
+        <li><img src="logos/attinghausen.gif" alt="Attinghausen Logo"><a href="#attinghausen">Attinghausen</a></li>
+        <li><img src="logos/bauen.gif" alt="Bauen Logo"><a href="#bauen">Bauen</a></li><br><br>
+        <li><img src="logos/bürglen.gif" alt="Bürglen Logo"><a href="#bürglen">Bürglen</a></li>
+        <li><img src="logos/erstfeld.gif" alt="Erstfeld Logo"><a href="#erstfeld">Erstfeld</a></li>
+        <li><img src="logos/flüelen.gif" alt="Flüelen Logo"><a href="#flüelen">Flüelen</a></li>
+        <li><img src="logos/göschenen.gif" alt="Göschenen Logo"><a href="#göschenen">Göschenen</a></li><br><br>
+        <li><img src="logos/gurtnellen.gif" alt="Gurtnellen Logo"><a href="#Gurtnellen">Gurtnellen</a></li>
+        <li><img src="logos/hospental.gif" alt="Hospental Logo"><a href="#hospental">Hospental</a></li>
+        <li><img src="logos/isenthal.gif" alt="Isenthal Logo"><a href="#isenthal">Isenthal</a></li>
+        <li><img src="logos/realp.gif" alt="Realp Logo"><a href="#realp">Realp</a></li><br><br>
+        <li><img src="logos/schattdorf.gif" alt="Schattdorf Logo"><a href="#schattdorf">Schattdorf</a></li>
+        <li><img src="logos/seedorf.gif" alt="Seedorf Logo"><a href="#seedorf">Seedorf</a></li>
+        <li><img src="logos/seelisberg.gif" alt="Seelisberg Logo"><a href="#seelisberg">Seelisberg</a></li>
+        <li><img src="logos/silenen.gif" alt="Silenen Logo"><a href="#silenen">Silenen</a></li><br><br>
+        <li><img src="logos/sisikon.gif" alt="Sisikon Logo"><a href="#sisikon">Sisikon</a></li>
+        <li><img src="logos/spiringen.gif" alt="Spiringen Logo"><a href="#spiringen">Spiringen</a></li>
+        <li><img src="logos/unterschächen.gif" alt="Unterschächen Logo"><a href="#unterschächen">Unterschächen</a></li>
+        <li><img src="logos/wassen.gif" alt="Wassen Logo"><a href="#wassen">Wassen</a></li>
+    </ul>
+   <!--- </div>-->
+
+    <p>Dropdown form - List of Municipalities of Canton Uri</p>
+    <form name="frmDropDown" action="default.html" method="POST">
+        <select name="municipalities">
+            <option value="altdorf">Altdorf</option>
+            <option value="andermatt">Andermatt</option>
+            <option value="attinghausen">Attinghausen</option>
+            <option value="bauen">Bauen</option>
+            <option value="bürglen">Bürglen</option>
+            <option value="erstfeld">Erstfeld</option>
+            <option value="flüelen">Flüelen</option>
+            <option value="göschenen">Göschenen</option>
+            <option value="gurtnellen">Gurtnellen</option>
+            <option value="hospental">Hospental</option>
+            <option value="isenthal">Isenthal</option>
+            <option value="realp">Realp</option>
+            <option value="schattdorf">Schattdorf</option>
+            <option value="seedorf">Seedorf</option>
+            <option value="seelisberg">Seelisberg</option>
+            <option value="Silenen">Silenen</option>
+            <option value="sisikon">Sisikon</option>
+            <option value="spiringen">Spiringen</option>
+            <option value="unterschächen">Unterschächen</option>
+            <option value="wassen">Wassen</option>
+    </form>
+  
+    <p>Fixed Displayed form - List of Municipalities of Canton Uri</p><br>
+    <form name="frmFixedData"  action="index.html" method="GET">
+            Municipality name: <input type="text" name="mname">
+    </form> 
+
+
+   <h3>Swiss Confederation National Anthem 
+       <audio controls>
+            <source src="https://ia800201.us.archive.org/7/items/SwissConfederation-NationalAnthem/na.switzerland.ogg" type="audio/ogg">
+            <source src="https://ia600201.us.archive.org/7/items/SwissConfederation-NationalAnthem/na.switzerland_64kb.mp3" type="audio/mp3">
+            Your browser does not support the media file.
+        </audio>
+    </h3>
+
+    <footer>
+    <strong id="copyright">&copy; 2019 Mebrahtu Altdorf Uri</strong>
+</footer>
+</body>
+</html>

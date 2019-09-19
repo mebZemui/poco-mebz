@@ -1,0 +1,29 @@
+
+	ul#H-list li {
+		display: inline;
+	}
+	ul#M-list li img {
+		width:60px;
+		height:auto;
+	}
+	
+	ul#M-list li {
+		display: inline;
+		padding: 40px;
+		margin: 10px;
+		font-size: 1em;
+
+	}
+
+	ul#M-list {
+		width: 960px;
+		display: table;
+		table-layout: fixed;
+	}
+
+	ul#M-list li {
+		display: table-cell;
+	}
+	ul#M-list li img{
+		display: block;
+	}
